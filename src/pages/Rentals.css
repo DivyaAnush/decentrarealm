@@ -12,6 +12,8 @@
 
 }
 
+
+
 .filter {
     font-size: 14px;
     font-weight: 500;
@@ -137,7 +139,7 @@
 
 .scrolltext{
     max-width: 850px;
-    margin-right: 140px;
+    margin-right: 70px;
 }
 
 .searchReminder{

@@ -193,7 +193,7 @@ const Rentals = () => {
   const sendData =async (e) => {
     if (!account) {
       // alert("connect to Wallet");
-      handleNoAccount()
+      handleNoAccount();
       return;
     }
     console.log(account)
@@ -214,7 +214,8 @@ const Rentals = () => {
     });
     
     
-    alert("booking successfull");
+    // alert("booking successfull");
+    handleSuccess();
     
   }
   
@@ -241,12 +242,12 @@ const Rentals = () => {
         <marquee behavior="scroll" direction="Left"><h1>World's first 100% Web3 Enabled Hotel Reservation System!</h1></marquee>
       </div>
 
-        <div className="lrContainers">
+        <div /*className="lrContainers"*/>
           {/* {account &&
           <User account={account} />
         }
           <ConnectButton /> */}
-          <button onClick={connectMetamask}>CONNECT Wallet</button>
+          <button onClick={connectMetamask}><strong>CONNECT Wallet</strong></button><br/>
           <p>{account}</p>
         </div>
       </div>
