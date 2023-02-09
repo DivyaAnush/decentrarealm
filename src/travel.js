@@ -5,7 +5,7 @@ const web3 = new Web3(window.ethereum);
 
 // 0x7Ae1b555c06bD13f91a6AcbAF5E65edfD0E813B1
 // 0x39E62C6d1E797d0504217c20BBE174EE6d5a4444
-const address = '0x8307bCb2282a35E9aa4317440fBf6cEA7B4d8b22';
+const address = '0x7Ae1b555c06bD13f91a6AcbAF5E65edfD0E813B1';
 const abi = [
 	{
 		"inputs": [

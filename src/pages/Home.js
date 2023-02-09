@@ -21,7 +21,7 @@ import Card from "react-bootstrap/Card";
 const Home = () => {
   const [checkIn, setCheckIn] = useState(new Date());
   const [checkOut, setCheckOut] = useState(new Date());
-  const [destination, setDestination] = useState("Bangalore");
+  const [destination, setDestination] = useState("New York");
   const [guests, setGuests] = useState(2);
   // const { Moralis, account } = useMoralis();
 
@@ -38,7 +38,7 @@ const Home = () => {
       </div>
 
       <div className="Caddress">
-         <a href ="https://mumbai.polygonscan.com/address/0x137022fb1fe6e2b0b6939c0d500fa97ceed8aef7" target ="_blank" >Contract Address</a>
+         <a href ="https://mumbai.polygonscan.com/address/0x8307bcb2282a35e9aa4317440fbf6cea7b4d8b22" target ="_blank" >Contract Address</a>
       </div>
       
 
@@ -92,9 +92,14 @@ const Home = () => {
               onChange={(data) => setDestination(data.label)}
               options={[
                 {
+                  id: "ny",
+                  label: "New York",
+                },
+                {
                   id: "blore",
                   label: "Banglore",
                 },
+                
                 {
                   id: "lGoa",
                   label: "Goa",
